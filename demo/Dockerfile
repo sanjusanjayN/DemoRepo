@@ -1,5 +1,5 @@
-# Use Eclipse Temurin Java 11 as base (actively maintained)
-FROM eclipse-temurin:11-jdk
+# Use Eclipse Temurin Java 17 as base (matches Spring Boot build)
+FROM eclipse-temurin:17-jdk
 
 # Set a working directory
 WORKDIR /app
